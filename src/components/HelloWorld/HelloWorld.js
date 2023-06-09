@@ -3,6 +3,7 @@ import { MyContext } from "../../context/myContext"
 import { ButtonUI } from "../ui/ButtonUI/ButtonUI"
 import { useParams } from 'react-router-dom'
 
+
 export const HelloWorld = (props) => {
   const params = useParams();
   console.log(params)
