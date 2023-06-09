@@ -9,15 +9,6 @@ const {Content, Footer } = Layout;
 export const Navbar = (props) => {
   const navigation = useNavigate()
 
-  // const goToHome = () => {
-  //   navigation('/', {
-  //     state: {
-  //       userId: 12,
-  //       postId: 1,
-  //     }
-  //   })
-  // }
-
   const navItems = [
     {
       label: <Link to="/" >Главная</Link>,
