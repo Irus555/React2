@@ -9,8 +9,6 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import { getPosts } from './store/actions/postsActions';
 import { useDispatch, useSelector } from 'react-redux'
 
-// import { Posts } from './components/PostsPage/Posts';
-// import { PostPage } from './components/PostPage/PostPage';
 function App() {
 
 
