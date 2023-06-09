@@ -6,6 +6,7 @@ import mainRoute from './routes/mainRoute.js'
 import postsRoute from './routes/postRoute.js'
 
 
+
 const app = express();
 const PORT = 3900
 
