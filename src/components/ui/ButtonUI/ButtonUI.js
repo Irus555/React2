@@ -8,3 +8,4 @@ export const ButtonUI = ({ label, onClick }) => {
     </>
   )
 }
+
