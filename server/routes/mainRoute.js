@@ -10,6 +10,7 @@ router.get('/', (req, res) => {
     errMsg: '',
   }
 
+  
   res.status(200).json(response).send()
 })
 
