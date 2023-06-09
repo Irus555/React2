@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { createPost, getPosts } from '../../store/actions/postsActions'
 
+
 export const Posts = () => {
 
   const navigation = useNavigate();
