@@ -5,6 +5,7 @@ import { Typography, Spin, Button, Form, Input } from 'antd'
 import { useDispatch, useSelector } from 'react-redux'
 import { getPost, updatePost } from '../../store/actions/postsActions'
 
+
 const { Title } = Typography
 
 export const PostPage = () => {
