@@ -7,6 +7,7 @@ const initState = {
 }
 
 
+
 export const postsReducer = (state = initState, action) => {
   console.log('action from reducer:', action)
   switch (action.type) {
