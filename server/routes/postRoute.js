@@ -1,6 +1,7 @@
 import express from 'express'
 import Post from '../db/schemas/postSchema.js'
 
+
 const router = express.Router()
 
 router.get('/posts', async (req, res) => {
