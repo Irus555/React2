@@ -15,6 +15,7 @@ export const getPosts = async (dispatch) => {
           }
           if (!res.ok) {
             dispatch({ type: 'getPosts_error', posts: [], loading: false, success: false, errMsg: 'Ошибка при загрузки апи' })
+            
           }
 
         })
